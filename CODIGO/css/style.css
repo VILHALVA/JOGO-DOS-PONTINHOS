@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(0, 0, 0, 0.427);
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#container {
+    position: relative;
+    align-self: center;
+}
+
+#board-frame {
+    background-color: white;
+}
+
+#score-frame {
+    align-self: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    color:rgb(54, 62, 73);
+    padding-top: 5px;
+}
+
+#game-result {
+    align-self: center;
+    font-family: 'Comfortaa', cursive;
+    color:#2f3640;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+#playerScore{
+    color:#2ecc71;
+    font-weight: 1000;
+}
+
+#computerScore{
+    color:#e74c3c;
+    font-weight: 1000;
+}
